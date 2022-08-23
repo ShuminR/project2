@@ -20,14 +20,14 @@ seg_static seg_static_inst
 
 hc595_ctrl hc595_ctrl_inst
 (
-.sys_clk		(sys_clk),
-.sys_rst_n		(sys_rst_n),
-.sel			(sel),
-.seg			(seg),
-.stcp			(stcp),	
-.shcp			(shcp),	
-.ds				(ds),	
-.oe				(oe)
+	.sys_clk		(sys_clk),
+	.sys_rst_n		(sys_rst_n),
+	.sel			(sel),
+	.seg			(seg),
+	.stcp			(stcp),	
+	.shcp			(shcp),	
+	.ds			(ds),	
+	.oe			(oe)
 );
 endmodule
 	
